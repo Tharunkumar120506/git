@@ -104,14 +104,3 @@
          flex-direction:column;
     }
 }
-/*.grid-container2
-{
-    display:grid;
-    grid-template-rows: 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px;
-}
-.grid-container2 div{
-    border: 2px solid black;
-    background-color:bisque;
-}
-    */
