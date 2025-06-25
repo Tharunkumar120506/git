@@ -3,7 +3,8 @@ import cors from 'cors'
 import {connectDB} from './config/db.js'
 import mongoose from 'mongoose'
 import User from './model/user.js'
-
+import dotenv from 'dotenv'
+dotenv.config()
 const app=express()
 
 connectDB()

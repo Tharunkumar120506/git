@@ -2,8 +2,8 @@
 
  export const connectDB=async()=>{
     try {
-        await mongoose.connect('mongodb+srv://THARUNKUMAR:tharun2006@cluster0.wdfiwfb.mongodb.net/sample_mflix')
-        console.log('MongoDB connected')
+        await mongoose.connect(process.env.MONGO_URL)
+        console.log('MongoDB connected successfully')
     }
     
     catch (error)
