@@ -11,8 +11,7 @@ const counter = (state, action) => {
             return state - 1
         case 'RESET':
             return initialValue
-        default:
-            return state
+0            return state
     }
 }
 
